@@ -1,0 +1,111 @@
+openapi: 3.0.0
+info:
+  title: Product API
+  description: API untuk mengelola data produk
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8000
+
+paths:
+  /products:
+    get:
+      summary: Mendapatkan daftar semua produk
+      responses:
+        '200':
+          description: Daftar produk berhasil didapatkan
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      example: 1
+                    name:
+                      type: string
+                      example: "Product A"
+                    price:
+                      type: number
+                      format: float
+                      example: 29.99
+                    in_stock:
+                      type: boolean
+                      example: true
+
+    post:
+      summary: Menambahkan produk baru
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  example: "Product B"
+                price:
+                  type: number
+                  format: float
+                  example: 19.99
+                in_stock:
+                  type: boolean
+                  example: true
+      responses:
+        '201':
+          description: Produk baru berhasil ditambahkan
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 2
+                  name:
+                    type: string
+                    example: "Product B"
+                  price:
+                    type: number
+                    format: float
+                    example: 19.99
+                  in_stock:
+                    type: boolean
+                    example: true
+
+  /products/{id}:
+    get:
+      summary: Mendapatkan detail produk berdasarkan ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            example: 1
+      responses:
+        '200':
+          description: Detail produk berhasil didapatkan
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  name:
+                    type: string
+                    example: "Product A"
+                  price:
+                    type: number
+                    format: float
+                    example: 29.99
+                  in_stock:
+                    type: boolean
+                    example: true
+        '404':
+          description: Produk tidak ditemukan

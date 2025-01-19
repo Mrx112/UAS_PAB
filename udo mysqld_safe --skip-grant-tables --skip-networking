@@ -1,0 +1,270 @@
+Dec 10 08:29:51 mr112 systemd[1]: Starting mariadb.service - MariaDB 11.4.3 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 197.[0m
+Dec 10 08:29:52 mr112 (mariadbd)[1871]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Dec 10 08:29:56 mr112 mariadbd[1871]: 2024-12-10  8:29:56 0 [Note] Starting MariaDB 11.4.3-MariaDB-1 source revision 5ab81ffe0097a22a774957df28c5223cf0201de3 server_uid ZaMBJEgtAZdD6pPzzkeqy/VoYGI= as process 1871
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Number of transaction pools: 1
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Using generic crc32 instructions
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Using liburing
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Initialized memory pressure event listener
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: Completed initialization of buffer pool
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+Dec 10 08:29:58 mr112 mariadbd[1871]: 2024-12-10  8:29:58 0 [Note] InnoDB: End of log at LSN=599687
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: Opened 3 undo tablespaces
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: log sequence number 599687; transaction id 748
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] Plugin 'wsrep-provider' is disabled.
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] Recovering after a crash using tc.log
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] Starting table crash recovery...
+Dec 10 08:30:00 mr112 mariadbd[1871]: 2024-12-10  8:30:00 0 [Note] Crash table recovery finished.
+Dec 10 08:30:01 mr112 mariadbd[1871]: 2024-12-10  8:30:01 0 [Note] InnoDB: Buffer pool(s) load completed at 241210  8:30:01
+Dec 10 08:30:10 mr112 mariadbd[1871]: 2024-12-10  8:30:10 0 [Note] Server socket created on IP: '127.0.0.1'.
+Dec 10 08:30:10 mr112 mariadbd[1871]: 2024-12-10  8:30:10 0 [Note] mariadbd: Event Scheduler: Loaded 0 events
+Dec 10 08:30:10 mr112 mariadbd[1871]: 2024-12-10  8:30:10 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Dec 10 08:30:10 mr112 mariadbd[1871]: Version: '11.4.3-MariaDB-1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Debian n/a
+Dec 10 08:30:10 mr112 systemd[1]: Started mariadb.service - MariaDB 11.4.3 database server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 197.[0m
+Dec 10 08:30:11 mr112 /etc/mysql/debian-start[2155]: Upgrading MariaDB tables if necessary.
+Dec 10 08:30:11 mr112 /etc/mysql/debian-start[2297]: Checking for insecure root accounts.
+Dec 10 10:06:11 mr112 mariadbd[1871]: 2024-12-10 10:06:11 31 [Warning] Access denied for user 'root'@'localhost'
+Dec 10 10:06:14 mr112 mariadbd[1871]: 2024-12-10 10:06:14 32 [Warning] Access denied for user 'root'@'localhost'
+Dec 10 10:14:24 mr112 mariadbd[1871]: 2024-12-10 10:14:24 36 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+Dec 10 10:14:31 mr112 mariadbd[1871]: 2024-12-10 10:14:31 37 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Dec 10 10:14:35 mr112 mariadbd[1871]: 2024-12-10 10:14:35 38 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Dec 10 10:17:06 mr112 mariadbd[1871]: 2024-12-10 10:17:06 39 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Dec 10 10:17:13 mr112 mariadbd[1871]: 2024-12-10 10:17:13 40 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+Dec 10 10:17:22 mr112 mariadbd[1871]: 2024-12-10 10:17:22 41 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Dec 10 10:17:28 mr112 mariadbd[1871]: 2024-12-10 10:17:28 42 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+Dec 10 10:19:10 mr112 mariadbd[1871]: 2024-12-10 10:19:10 44 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+Dec 10 10:19:38 mr112 mariadbd[1871]: 2024-12-10 10:19:38 45 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Dec 10 10:21:10 mr112 systemd[1]: Stopping mariadb.service - MariaDB 11.4.3 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4477.[0m
+Dec 10 10:21:10 mr112 mariadbd[1871]: 2024-12-10 10:21:10 0 [Note] /usr/sbin/mariadbd (initiated by: unknown): Normal shutdown
+Dec 10 10:21:10 mr112 mariadbd[1871]: 2024-12-10 10:21:10 0 [Note] InnoDB: FTS optimize thread exiting.
+Dec 10 10:21:11 mr112 mariadbd[1871]: 2024-12-10 10:21:11 0 [Note] InnoDB: Starting shutdown...
+Dec 10 10:21:11 mr112 mariadbd[1871]: 2024-12-10 10:21:11 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+Dec 10 10:21:11 mr112 mariadbd[1871]: 2024-12-10 10:21:11 0 [Note] InnoDB: Buffer pool(s) dump completed at 241210 10:21:11
+Dec 10 10:21:11 mr112 mariadbd[1871]: 2024-12-10 10:21:11 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Dec 10 10:21:11 mr112 mariadbd[1871]: 2024-12-10 10:21:11 0 [Note] InnoDB: Shutdown completed; log sequence number 599687; transaction id 749
+Dec 10 10:21:12 mr112 mariadbd[1871]: 2024-12-10 10:21:12 0 [Note] /usr/sbin/mariadbd: Shutdown complete
+Dec 10 10:21:12 mr112 systemd[1]: mariadb.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has successfully entered the 'dead' state.[0m
+Dec 10 10:21:12 mr112 systemd[1]: Stopped mariadb.service - MariaDB 11.4.3 database server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit mariadb.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit mariadb.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4477 and the job result is done.[0m
+Dec 10 10:21:12 mr112 systemd[1]: mariadb.service: Consumed 17.291s CPU time, 248.8M memory peak, 200M memory swap peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service completed and consumed the indicated resources.[0m
+Dec 10 10:23:19 mr112 systemd[1]: Starting mariadb.service - MariaDB 11.4.3 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4478.[0m
+Dec 10 10:23:20 mr112 (mariadbd)[65403]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Dec 10 10:23:20 mr112 mariadbd[65403]: 2024-12-10 10:23:20 0 [Note] Starting MariaDB 11.4.3-MariaDB-1 source revision 5ab81ffe0097a22a774957df28c5223cf0201de3 server_uid ZaMBJEgtAZdD6pPzzkeqy/VoYGI= as process 65403
+Dec 10 10:23:20 mr112 mariadbd[65403]: 2024-12-10 10:23:20 0 [ERROR] mariadbd: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [ERROR] mariadbd: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Number of transaction pools: 1
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Using generic crc32 instructions
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Using liburing
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Initialized memory pressure event listener
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Completed initialization of buffer pool
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Check that you do not already have another mariadbd process using the same InnoDB data or log files.
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+Dec 10 10:23:50 mr112 mariadbd[65403]: 2024-12-10 10:23:50 0 [Note] InnoDB: Starting shutdown...
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [Note] Plugin 'wsrep-provider' is disabled.
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [ERROR] Could not open mysql.plugin table: "Unknown storage engine 'Aria'". Some plugins may be not loaded
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [ERROR] Failed to initialize plugins.
+Dec 10 10:23:51 mr112 mariadbd[65403]: 2024-12-10 10:23:51 0 [ERROR] Aborting
+Dec 10 10:23:51 mr112 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Dec 10 10:23:51 mr112 systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Dec 10 10:23:51 mr112 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 11.4.3 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4478 and the job result is failed.[0m
+Dec 10 10:23:51 mr112 systemd[1]: mariadb.service: Consumed 867ms CPU time, 169.4M memory peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service completed and consumed the indicated resources.[0m
+Dec 10 10:24:08 mr112 systemd[1]: Starting mariadb.service - MariaDB 11.4.3 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4604.[0m
+Dec 10 10:24:09 mr112 (mariadbd)[65892]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Dec 10 10:24:09 mr112 mariadbd[65892]: 2024-12-10 10:24:09 0 [Note] Starting MariaDB 11.4.3-MariaDB-1 source revision 5ab81ffe0097a22a774957df28c5223cf0201de3 server_uid ZaMBJEgtAZdD6pPzzkeqy/VoYGI= as process 65892
+Dec 10 10:24:09 mr112 mariadbd[65892]: 2024-12-10 10:24:09 0 [ERROR] mariadbd: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] mariadbd: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Number of transaction pools: 1
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Using generic crc32 instructions
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Using liburing
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Initialized memory pressure event listener
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Completed initialization of buffer pool
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Check that you do not already have another mariadbd process using the same InnoDB data or log files.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] InnoDB: Starting shutdown...
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [Note] Plugin 'wsrep-provider' is disabled.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] Could not open mysql.plugin table: "Unknown storage engine 'Aria'". Some plugins may be not loaded
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] Failed to initialize plugins.
+Dec 10 10:24:39 mr112 mariadbd[65892]: 2024-12-10 10:24:39 0 [ERROR] Aborting
+Dec 10 10:24:40 mr112 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Dec 10 10:24:40 mr112 systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Dec 10 10:24:40 mr112 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 11.4.3 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4604 and the job result is failed.[0m
+Dec 10 10:24:40 mr112 systemd[1]: mariadb.service: Consumed 879ms CPU time, 171M memory peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service completed and consumed the indicated resources.[0m
+Dec 10 10:29:47 mr112 systemd[1]: Starting mariadb.service - MariaDB 11.4.3 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4730.[0m
+Dec 10 10:29:48 mr112 (mariadbd)[68876]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Dec 10 10:29:49 mr112 mariadbd[68876]: 2024-12-10 10:29:49 0 [Note] Starting MariaDB 11.4.3-MariaDB-1 source revision 5ab81ffe0097a22a774957df28c5223cf0201de3 server_uid ZaMBJEgtAZdD6pPzzkeqy/VoYGI= as process 68876
+Dec 10 10:29:49 mr112 mariadbd[68876]: 2024-12-10 10:29:49 0 [ERROR] mariadbd: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] mariadbd: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Number of transaction pools: 1
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Using generic crc32 instructions
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Using liburing
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Initialized memory pressure event listener
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Completed initialization of buffer pool
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Check that you do not already have another mariadbd process using the same InnoDB data or log files.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] InnoDB: Starting shutdown...
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [Note] Plugin 'wsrep-provider' is disabled.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] Could not open mysql.plugin table: "Unknown storage engine 'Aria'". Some plugins may be not loaded
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] Failed to initialize plugins.
+Dec 10 10:30:19 mr112 mariadbd[68876]: 2024-12-10 10:30:19 0 [ERROR] Aborting
+Dec 10 10:30:19 mr112 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Dec 10 10:30:19 mr112 systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Dec 10 10:30:19 mr112 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 11.4.3 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4730 and the job result is failed.[0m
+Dec 10 10:30:19 mr112 systemd[1]: mariadb.service: Consumed 860ms CPU time, 170.9M memory peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service completed and consumed the indicated resources.[0m
